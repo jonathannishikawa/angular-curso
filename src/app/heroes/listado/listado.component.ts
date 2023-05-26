@@ -9,7 +9,7 @@ export class ListadoComponent {
   heroes: string[] = ['Spiderman', 'Ironamn', 'Hulk', 'Thor', 'Capitan America'];
   heroeBorrado: string = '';
 
-  borrarHeroe() {
+  borrarHeroe(): void {
     this.heroeBorrado = this.heroes.pop() || '';
   }
 

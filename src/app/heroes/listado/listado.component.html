@@ -8,7 +8,9 @@
     <h3>No ha borrado nada</h3>
 </ng-template>
 
-<button (click)="borrarHeroe()">
+<button
+*ngIf="heroes.length > 0"
+(click)="borrarHeroe()">
     Borrar
 </button>
 

@@ -10,10 +10,11 @@ import { CommonModule } from '@angular/common';
         ListadoComponent
     ],
     exports: [
-        ListadoComponent
+      HeroeComponent,
+      ListadoComponent
     ],
     imports: [
-        CommonModule
+      CommonModule
     ]
 })
 
